@@ -1,0 +1,49 @@
+* {
+    position: relative;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    padding: 0;
+    padding-left: 1em;
+    margin: 0;
+    color: #fff;
+}
+
+@font-face {
+    font-family: 'Swiss911BT-ExtraCompressed';
+    src: url('Swiss911BT-ExtraCompressed.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pageOuter {
+    position: relative;
+    padding-left: 7em;
+}
+
+.pageOuterTopLeft {
+    padding-top: 2em;
+    margin-top: 1em;
+    border-top-left-radius: 7em 2em;
+}
+
+.pageOuterBottomLeft {
+    padding-bottom: 2em;
+    margin-bottom: 1em;
+    border-bottom-left-radius: 7em 2em;
+}
+
+.pageOuterTopLeft > .pageInner {
+    border-top-left-radius: 0.5em 0.5em;
+}
+.pageOuterBottomLeft > .pageInner {
+    border-bottom-left-radius: 0.5em 0.5em;
+}
+
+.pageInner {
+    background-color: #000;
+}
